@@ -1,0 +1,23 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html",
+    "deploy":"surge ./dist test.portfolio-lollow.surge.sh",
+    "web":"npm run build && npm run deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "parcel": "^1.12.4"
+  },
+  "devDependencies": {
+    "modularscale-sass": "^3.0.10",
+    "sass-loader": "^8.0.2"
+  }
+}

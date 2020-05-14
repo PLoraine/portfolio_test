@@ -1,0 +1,61 @@
+nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	align-content:center;
+	width: 100%;
+	padding:ms(0) 0;
+	background: #FFFDFD;
+
+	.menu_burger {
+		margin:0 ms(4) 0 ms(2);
+	}
+
+	.logo {
+		flex-grow:1;
+	}
+
+}
+
+.jumbotron {
+	background-image: url("../images/jumbotron/jumbotron.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 10em; 
+
+	.cadre {
+		 background:#fefefe;
+		 border-top : 20px solid #A0CB96;
+		 border-left: 20px solid #A0CB96;
+		 border-bottom: 20px solid #A0CB96;
+		 width: ms(7);
+		 box-shadow:2px 6px 2px 1px rgba(0, 0, 255, .2);
+		 align-self: flex-end;
+
+		 h1 {
+		 	font-family: $alice;
+		 	font-size: ms(2);
+		 	padding: ms(0) 0 ms(0) ms(-1);
+		 }
+
+	}
+	.photo {
+		width: 50%;
+		position: relative;
+		top: ms(5);
+			img {
+				width: 100%;
+				height: auto;
+				align-self:flex-start;
+			}
+		}
+
+}
+
+
