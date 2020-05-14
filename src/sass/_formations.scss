@@ -1,52 +1,43 @@
 .formations {
 	background-image: url("../images/formations/formations.png");
-	width: 50vw;
-	height: 500px;
-	position: relative;
-	top: 600px;
-	font-family: $signika;
-
+	font-family: $alice;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+	height: ms(9);
+	width: 100%;
+	margin-top: 5em;
+	
 	h1 {
-		padding-top: 12px;
 		text-align: center;
 		letter-spacing: 3px;
 		font-size: 30px;
-		padding-left:12px;
-	}
-
-	.form_titre {
-		padding-left:56px;
 	}
 
 	.forma {
 		background: #F5F6F6;
-		width: 250px;
-		height: 108px;
-		margin-top:35px;
-		margin-left: 20px;
+		box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);;
+		width: 80%;
+		height: ms(5);
+		margin-left: 10%;
 		display: flex;
 		flex-direction: column;
+		justify-content: space-between;
 		text-align: center;
-		box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);;
 	}
 
 	.titre {
-		font-size: 20px;
-		position:relative;
-		
+		font-size: 1.6em;
 	}
 
-	h2 {
-		font-size: 20px;
-		position: relative;
-		bottom:10px;
+	.date {
+		font-size: ms(1);
 		letter-spacing: 5px;
+		margin-top: -0.6em;
 	}
 
-	h3 {
-		font-size: 16px;
-		position:relative;
-		top: 20px;
+	.lieu {
+		font-size: ms(0);
 	} 
 
 }
