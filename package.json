@@ -14,10 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.14.1",
-    "parcel": "^1.12.4"
+    "parcel": "^2.8.2"
   },
   "devDependencies": {
     "modularscale-sass": "^3.0.10",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^13.2.0"
   }
 }
